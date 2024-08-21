@@ -35,12 +35,7 @@ export default function Home() {
             <p
               className={`mt-5 max-w-2xl px-5 text-[16px] font-[300] leading-8 text-[#47626D] md:pl-[80px] ${hind.className}`}
             >
-              Here are a few of my most recent work. As a web developer,
-              I constantly prioritise 100% client
-              satisfaction. I always enjoy working on my projects, so each one
-              is a new adventure for me. While working on each new project, I
-              attempt to learn new things. As a result, I am passionate about learning new things
-              and continually improving myself.
+              Here are a few of my most recent work. As a web developer, I constantly prioritise 100% client satisfaction. I always enjoy working on my projects, so each one is a new adventure for me. While working on each new project, I attempt to learn new things. As a result, I am passionate about learning new things and continually improving myself.
             </p>
           </div>
         </div>

@@ -5,7 +5,6 @@ export default function Footer() {
   const contacts = [
     '+447771046375',
     't.okonbaeva92@gmail.com',
-    'N11 3HU, London, UK',
   ];
 
   const quickLinks = ['Home', 'Portfolio', 'About-me'];
