@@ -49,7 +49,7 @@ function SliderCart({ item, index }) {
           className="absolute top-14 h-[200px] w-full rounded-lg bg-white sm:left-12 md:h-[300px] lg:h-[350px]"
           style={{ boxShadow: '#48AFDE -10px 10px 20px 10px' }}
         >
-          <div className="relative h-[200px] w-full md:h-[300px] lg:h-[350px] ">
+          <div className="relative flex h-[200px] w-full justify-between gap-2 md:h-[300px] lg:h-[350px] ">
             <p className="absolute bottom-3 left-4 text-lg font-[300] ">
               {item.name}
             </p>

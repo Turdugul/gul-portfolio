@@ -59,7 +59,7 @@ export default function AboutMe() {
           <h1 className="relative -mt-40 mb-5  px-5 text-5xl font-recoletaBlack  text-[#48AFDE] md:px-24">
             About My Self
           </h1>
-          <h4 className="relative mb-10 w-full px-5 font-recoleta text-2xl font-[300] text-[#223740] md:w-3/4 md:px-24 lg:w-2/3 xl:w-1/2">
+          <h4 className="font-light relative mb-10 w-full px-5 font-recoleta text-2xl text-[#223740] md:w-3/4 md:px-24 lg:w-2/3 xl:w-1/2">
             Knack of Building application with frontend and backend operation
           </h4>
           <section className="relative flex flex-col px-5 md:px-24 lg:flex-row">
@@ -67,21 +67,31 @@ export default function AboutMe() {
               className={`mb-5 mr-0 w-full font-[200] text-[#223740]  lg:mr-4 lg:w-1/3 ${hind.className}`}
             >
               {' '}
-              Hello! My name is Turdugul (Gul), and I am a passionate and dedicated Full Stack Developer. I thrive in dynamic environments and am constantly evolving, learning, and adapting to new challenges.
+              Hello! My name is Turdugul (Gul), and I am a passionate and
+              dedicated Full Stack Developer. I thrive in dynamic environments
+              and am constantly evolving, learning, and adapting to new
+              challenges.
             </p>
             <p
               className={`mb-5 mr-0 w-full font-[200] text-[#223740]  lg:mr-4 lg:w-1/3 ${hind.className}`}
             >
               {' '}
-             
-With a solid background in web development, I build robust web applications using HTML, CSS, JavaScript, Node.js, React, and Next.js. I also develop and deploy complex backend systems, web services, and databases, ensuring each project meets both technical and business requirements.
+              With a solid background in web development, I build robust web
+              applications using HTML, CSS, JavaScript, Node.js, React, and
+              Next.js. I also develop and deploy complex backend systems, web
+              services, and databases, ensuring each project meets both
+              technical and business requirements.
             </p>
             <p
               className={`mb-5 mr-0 w-full font-[200] text-[#223740]  lg:mr-4 lg:w-1/3 ${hind.className}`}
             >
               {' '}
-              I’m dedicated to delivering efficient, scalable software solutions. My passion for technology keeps me up-to-date with industry trends and drives me to continually enhance my skills.
- When faced with new challenges, I dive into research to understand and tackle them effectively, which is why I’ve developed a broad range of skills.
+              I’m dedicated to delivering efficient, scalable software
+              solutions. My passion for technology keeps me up-to-date with
+              industry trends and drives me to continually enhance my skills.
+              When faced with new challenges, I dive into research to understand
+              and tackle them effectively, which is why I’ve developed a broad
+              range of skills.
             </p>
           </section>
         </div>

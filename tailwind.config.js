@@ -14,8 +14,9 @@ module.exports = {
       },
     },
     fontFamily: {
-      recoleta: ['Recoleta', 'sans-serif'],
+      recoleta: ['var(--font-Recoleta-Black)', 'sans-serif'],
     },
+
     fontWeight: {
       recoletaBlack: 900,
     },

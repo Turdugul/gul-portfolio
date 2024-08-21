@@ -50,6 +50,8 @@ export const DataArray = [
       '/oasis-website2.png',
       '/oasis-website3.png',
     ],
+    demoLink: 'https://the-wild-oasis-website-virid.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/the-wild-oasis-website',
   },
   {
     title:
@@ -58,6 +60,8 @@ export const DataArray = [
     des: 'The project is an internal management app for The Wild Oasis, a boutique hotel with eight cabins, handling bookings, cabins, guests, and check-ins/check-outs, with a dashboard and potential future expansion to a customer-facing site.',
     des1: 'Technologies Used: React, React Router, Styled-components, React Query, React Hook Form, Supabase, plus React Icons, React Hot Toast, Recharts, and date-fns.',
     images: ['/oasisApp1.png', '/oasis-app2.png', '/oasis-app3.png'],
+    demoLink: 'https://the-willd-oasis-app.vercel.app/dashboard',
+    repoLink: 'https://github.com/Turdugul/the-willd-oasis-app',
   },
   {
     title: 'WorldWise keeps track of your adventures.',
@@ -66,6 +70,8 @@ export const DataArray = [
     des1: `Key Features: SPA with React Router for dynamic navigation, city management with external API data, and an interactive map with geolocation.`,
 
     images: ['/explore1.png', '/explore2.png'],
+    demoLink: 'https://the-wild-oasis-website-virid.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/the-wild-oasis-website',
   },
   {
     title: 'Fast Pizza Ordering App',
@@ -74,6 +80,8 @@ export const DataArray = [
     des1: 'Key featres  user info, menu, cart, and order processing. The app uses Redux for state management, React Router for navigation, and Tailwind CSS for styling.',
 
     images: ['/pizza11.png', '/pizza2.png'],
+    demoLink: 'https://the-wild-oasis-website-virid.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/the-wild-oasis-website',
   },
   {
     title:
@@ -82,6 +90,8 @@ export const DataArray = [
     des: 'A simple React app for managing tasks with features to add, view, update, and delete to-dos. It also summarizes completed tasks.',
     des1: 'Built with React, Vite, and ESLint for efficient development and code quality.',
     images: ['/todo1.png', '/todo1.png'],
+    demoLink: 'https://the-wild-oasis-website-virid.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/the-wild-oasis-website',
   },
   {
     title: 'The usePopcorn app is a movie-related application.',
@@ -90,5 +100,7 @@ export const DataArray = [
     des1: 'It uses real API data and demonstrates core React concepts, including useState, useEffect, and custom hooks. The project evolves from static data and basic components to dynamic data handling and advanced hook usage. ',
 
     images: ['/usePopcorn.png', '/usePopcorn2.png'],
+    demoLink: 'https://the-wild-oasis-website-virid.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/the-wild-oasis-website',
   },
 ];
