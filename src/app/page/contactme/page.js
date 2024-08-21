@@ -112,7 +112,7 @@ export default function Page() {
         className="m-auto mb-[-100px] mt-[10px] flex max-w-[1105px] flex-col justify-center gap-[60px] p-10 px-[30px] xl:flex-row"
       >
         <div
-          className="relative hidden h-[550px] w-[1/2] rounded-xlbg-[#48AFDE] bg-cover bg-center md:block md:w-full lg:w-1/2 xl:w-1/2"
+          className="rounded-xlbg-[#48AFDE] relative hidden h-[550px] w-[1/2] bg-cover bg-center md:block md:w-full lg:w-1/2 xl:w-1/2"
           style={{ backgroundImage: `url('/call1.png')` }}
         >
           <div className="absolute size-full bg-gradient-to-t from-[#223740] via-[#223740] opacity-70 shadow-inner"></div>
@@ -122,7 +122,7 @@ export default function Page() {
             </div>
             <div className="font-semibold text-[24px]">Chat With Live!</div>
             <div>
-              <p className="mt-5 border-2 border-[#48AEDD] rounded-[50px_20px] text-white  text-center text-xl font-[200]">
+              <p className="mt-5 rounded-[50px_20px] border-2 border-[#48AEDD] text-center  text-xl font-[200] text-white">
                 {' '}
                 Are you looking for a responsible, professinal full-stack
                 developer and designer for your website or your web application
@@ -146,7 +146,10 @@ export default function Page() {
               Request A Call Back ! Feel Free To Reach & Contact Us.
             </p>
           </div>
-          <form className="flex mb-16 flex-col gap-[20px]" onSubmit={handleSubmit}>
+          <form
+            className="mb-16 flex flex-col gap-[20px]"
+            onSubmit={handleSubmit}
+          >
             <div
               className={`flex flex-col  gap-[20px] sm:flex-row ${hind.className}`}
             >

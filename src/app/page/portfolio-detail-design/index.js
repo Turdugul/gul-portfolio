@@ -94,16 +94,12 @@ export default function Index({ id, data, DataArray }) {
             <div className="mb-2 flex flex-row gap-3">
               <a
                 href={data?.demoLink}
-                target="_blank"
-                rel="noopener noreferrer"
                 className={`font-bold mt-8 inline-block rounded-lg bg-[#48AFDE] px-3  py-1 uppercase text-white transition-all duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#223740] hover:shadow-lg md:mt-5 md:py-2 md:text-xs lg:px-8 lg:py-3 lg:text-base xl:mt-10${hind.className}`}
               >
                 Demo
               </a>
               <a
                 href={data?.repoLink}
-                target="_blank"
-                rel="noopener noreferrer"
                 className={`bottom-3 mt-8 inline-block rounded-lg bg-[#48AFDE] px-5  py-3 uppercase text-white transition-all duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#223740] hover:shadow-lg md:mt-5 md:py-2 md:text-xs lg:px-8 lg:py-3 lg:text-base xl:mt-10${hind.className}`}
               >
                 Repo
@@ -139,7 +135,7 @@ export default function Index({ id, data, DataArray }) {
           style={{ backgroundImage: `url(${DataArray[prev]?.images[0]})` }}
         >
           <a
-            className="group:hover:bg-[#223740] flex size-full cursor-pointer items-center justify-center bg-[#405B66]  bg-opacity-90 transition-colors duration-300"
+            className="group:hover:bg-[#223740] bg-opacity/90 flex size-full cursor-pointer items-center justify-center  bg-[#405B66] transition-colors duration-300"
             onClick={() => router.push(`/portfoliodetail/${prev}`)}
           >
             <svg
@@ -166,7 +162,7 @@ export default function Index({ id, data, DataArray }) {
           style={{ backgroundImage: `url(${DataArray[next]?.images[0]})` }}
         >
           <a
-            className="group:hover:bg-[#223740] flex size-full cursor-pointer items-center justify-center bg-[#405B66]  bg-opacity-90 transition-colors duration-300"
+            className="group:hover:bg-[#223740] bg-opacity/90 flex size-full cursor-pointer items-center justify-center  bg-[#405B66] transition-colors duration-300"
             onClick={() => router.push(`/portfoliodetail/${next}`)}
           >
             <svg

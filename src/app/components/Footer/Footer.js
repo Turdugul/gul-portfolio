@@ -2,16 +2,13 @@ import React from 'react';
 import Accordian from '../Footer/Accordian';
 
 export default function Footer() {
-  const contacts = [
-    '+447771046375',
-    't.okonbaeva92@gmail.com',
-  ];
+  const contacts = ['+447771046375', 't.okonbaeva92@gmail.com'];
 
   const quickLinks = ['Home', 'Portfolio', 'About-me'];
 
   return (
     <div id="footer" className="mt-[5px]">
-      <div className="bg-white sm:mt-8 pt-0 lg:pt-[100px]"></div>
+      <div className="bg-white pt-0 sm:mt-8 lg:pt-[100px]"></div>
       <footer className="bg-[#232323]">
         <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="container mx-auto mt-3 block  p-4 md:hidden">
@@ -32,7 +29,7 @@ export default function Footer() {
               <p className="font-sans mt-4 max-w-xs text-[#7b858b] ">
                 All rights reserved.
               </p>
-              <p className="font-sans text-xs max-w-xs text-[#7b858b] ">
+              <p className="font-sans max-w-xs text-xs text-[#7b858b] ">
                 &copy; 2024 Turdugul
               </p>
             </div>
@@ -130,6 +127,7 @@ export default function Footer() {
                       className="group flex flex-row items-center justify-center gap-2"
                       target="_blank"
                       href="mailto:t.okonbaeva92@gmail.com"
+                      rel="noreferrer"
                     >
                       <svg
                         stroke="currentColor"
@@ -210,6 +208,7 @@ export default function Footer() {
                   className="group flex flex-col items-center justify-center"
                   target="_blank"
                   href="mailto: t.okonbaeva92@gmail.com"
+                  rel="noreferrer"
                 >
                   <svg
                     stroke="currentColor"
