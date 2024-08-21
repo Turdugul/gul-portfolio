@@ -87,28 +87,25 @@ export default function Index({ id, data, DataArray }) {
             <p id="highlight" className="text-dark  font-sans my-2 text-[20px]">
               Project Descriptions
             </p>
-            <p className="font-sans mb-4 text-[14px] text-[#223740]">
+            <p className="font-sans mb-1 text-[14px] text-[#223740]">
               {' '}
               {data?.des1}
             </p>
-            <div className="mb-2 flex flex-row gap-3">
+            <div className="mb-4 flex flex-row gap-3">
               <a
                 href={data?.demoLink}
-                className={`font-bold mt-8 inline-block rounded-lg bg-[#48AFDE] px-3  py-1 uppercase text-white transition-all duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#223740] hover:shadow-lg md:mt-5 md:py-2 md:text-xs lg:px-8 lg:py-3 lg:text-base xl:mt-10${hind.className}`}
+                className={`font-semibold  mt-4 inline-block rounded-lg bg-[#2c29f6] px-3 py-1 uppercase text-white transition-all duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#18771c] hover:shadow-lg md:mt-5 md:py-2 md:text-xs lg:px-8 lg:py-3 lg:text-base xl:mt-10${hind.className}`}
               >
                 Demo
               </a>
               <a
                 href={data?.repoLink}
-                className={`bottom-3 mt-8 inline-block rounded-lg bg-[#48AFDE] px-5  py-3 uppercase text-white transition-all duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#223740] hover:shadow-lg md:mt-5 md:py-2 md:text-xs lg:px-8 lg:py-3 lg:text-base xl:mt-10${hind.className}`}
+                className={`font-semibold  mt-4 inline-block rounded-lg bg-[#2c29f6]  px-3 py-1 uppercase text-white transition-all duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#18771c] hover:shadow-lg md:mt-5 md:py-2 md:text-xs lg:px-8 lg:py-3 lg:text-base xl:mt-10${hind.className}`}
               >
                 Repo
               </a>
             </div>
             <div className="flex flex-wrap">
-              <h1 className="font-sans mb-4  mr-5 rounded-xl  bg-[#63c5f1] px-2  py-1 text-[14px]  text-white lg:bg-[#EEF7FB] lg:text-[#6A787D]">
-                UI/US Design
-              </h1>
               <h1 className="font-sans mb-4  mr-5 rounded-xl  bg-[#63c5f1] px-2  py-1 text-[14px]  text-white lg:bg-[#EEF7FB] lg:text-[#6A787D]">
                 Next.js
               </h1>
