@@ -90,8 +90,8 @@ export const DataArray = [
     des: 'A simple React app for managing tasks with features to add, view, update, and delete to-dos. It also summarizes completed tasks.',
     des1: 'Built with React, Vite, and ESLint for efficient development and code quality.',
     images: ['/todo1.png', '/todo1.png'],
-    demoLink: 'https://github.com/Turdugul/note-keeper-app',
-    repoLink: 'https://github.com/Turdugul/note-keeper-app',
+    demoLink: 'https://task-list-react-self.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/task-list-react',
   },
   {
     title: 'The usePopcorn app is a movie-related application.',

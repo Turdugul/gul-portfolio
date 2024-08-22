@@ -30,7 +30,7 @@ export default function Footer() {
                 All rights reserved.
               </p>
               <p className="font-sans max-w-xs text-xs text-[#7b858b] ">
-                &copy; 2024 Turdugul
+                &copy; 2024 Turdugul Okonbaeva
               </p>
             </div>
 

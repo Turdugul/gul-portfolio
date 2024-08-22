@@ -1,6 +1,5 @@
 'use client';
 import React, { useState } from 'react';
-import { FaHeadphones } from 'react-icons/fa';
 import { Hind } from 'next/font/google';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -112,17 +111,14 @@ export default function Page() {
         className="m-auto mb-[-100px] mt-[10px] flex max-w-[1105px] flex-col justify-center gap-[60px] p-10 px-[30px] xl:flex-row"
       >
         <div
-          className="rounded-xlbg-[#48AFDE] relative hidden h-[550px] w-[1/2] bg-cover bg-center md:block md:w-full lg:w-1/2 xl:w-1/2"
-          style={{ backgroundImage: `url('/call1.png')` }}
+          className=" relative hidden h-[550px] w-[1/2] bg-cover bg-center md:block md:w-full lg:w-1/2 xl:w-1/2"
+          style={{ backgroundImage: `url('/chat1.png')` }}
         >
           <div className="absolute size-full bg-gradient-to-t from-[#223740] via-[#223740] opacity-70 shadow-inner"></div>
-          <div className="absolute inset-0 flex flex-col items-center justify-center gap-[20px] p-6 text-white shadow-lg">
-            <div className="mt-0 rounded-full bg-[#48AFDE] p-[15px] text-4xl text-white xl:mt-[150px]">
-              <FaHeadphones />
-            </div>
+          <div className="absolute inset-0 flex flex-col items-center justify-end gap-[20px] p-6 text-white shadow-lg">
             <div className="font-semibold text-[24px]">Chat With Live!</div>
             <div>
-              <p className="mt-5 rounded-[50px_20px] border-2 border-[#48AEDD] text-center  text-xl font-[200] text-white">
+              <p className=" rounded-[50px_20px] border-2 border-[#48AEDD] p-3 text-center  text-xl font-[200] text-white">
                 {' '}
                 Are you looking for a responsible, professinal full-stack
                 developer and designer for your website or your web application

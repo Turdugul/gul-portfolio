@@ -42,10 +42,10 @@ export default function Header() {
         className={`${
           isScrolled ? 'headerShow' : ''
         } fixed top-0 z-50 w-full transition-all duration-500`}
-        style={{
-          backgroundColor: isScrolled ? '#fff' : 'transparent',
-          boxShadow: isScrolled ? '#48AFDE -10px 25px 50px 10px' : '',
-        }}
+        // style={{
+        //   backgroundColor: isScrolled ? '#fff' : 'transparent',
+        //   boxShadow: isScrolled ? '#48AFDE -10px 25px 50px 10px' : '',
+        // }}
       >
         <div className="relative">
           <div
