@@ -68,9 +68,8 @@ export default function AboutMe() {
             >
               {' '}
               Hello! My name is Turdugul (Gul), and I am a passionate and
-              dedicated Full Stack Developer. I thrive in dynamic environments
-              and am constantly evolving, learning, and adapting to new
-              challenges.
+              dedicated Software Developer. I thrive in dynamic environments and
+              am constantly evolving, learning, and adapting to new challenges.
             </p>
             <p
               className={`mb-5 mr-0 w-full font-[200] text-[#223740]  lg:mr-4 lg:w-1/3 ${hind.className}`}

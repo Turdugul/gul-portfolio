@@ -19,20 +19,22 @@ export const AboutData = [
     count: 2,
     title: 'Back-end Developer',
     img: '/third.svg',
-    array: ['NodeJS / Express.js', 'MongoDB / MySQL / MSSQL', 'Next.js (API)'],
+    array: ['NodeJS / Express.js', 'SQL : MySQL | NoSQL', 'Next.js (API)'],
   },
 
   {
     count: 3,
-    title: 'Tools and Things',
+    title: 'Tools',
     img: '/sisxth.svg',
     array: [
       'VSCode',
       'Git / Github',
       'Bash / Powershell',
       'NPM / Yarn',
-      'Vercel / Stormkit / Netlify',
+      'Vercel / Netlify',
       'Postman ',
+      'Figma',
+      'Agile/Scrum',
     ],
   },
 ];

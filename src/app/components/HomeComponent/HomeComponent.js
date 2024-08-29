@@ -124,7 +124,7 @@ function HomeComponent() {
                   <h2
                     className={`font-bold py-2 uppercase text-[#223740] md:text-xs lg:text-xl ${hind.className}`}
                   >
-                    Full-stack Web Developer
+                    Software Developer
                   </h2>
                   <a
                     href="/#portfolio"
@@ -133,8 +133,8 @@ function HomeComponent() {
                     Projects
                   </a>
                   <a
-                    href="resumeTurdugul1.pdf"
-                    download="Gul's resumeTurdugul1.pdf"
+                    href="resume_Gul_JSDev.pdf"
+                    download="resume_Gul_JSDev.pdf"
                     className={` font-bold ml-10 mt-8 inline-block rounded-lg bg-[#223740] px-5  py-3 uppercase text-white transition-all duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#48AFDE] hover:shadow-lg md:mt-5 md:py-2 md:text-xs lg:px-8 lg:py-3 lg:text-base xl:mt-10${hind.className}`}
                   >
                     My Resume
