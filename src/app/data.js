@@ -57,6 +57,16 @@ export const DataArray = [
   },
   {
     title:
+      'A Responsive Google Clone with Tailwind CSS and Search API Integration.',
+    name: 'Google Search Clone',
+    des: 'A  Google search clone built with Next.js and styled using Tailwind CSS. This project integrates the Google Search API to offer both web and image search functionalities, delivering a responsive and modern user experience.',
+    des1: 'Technologies Used: React.js, Tailwind CSS, Google Search API:Web and image search, Next.js, Node.js, Vercel',
+    images: ['/google-next1.png', '/google-next1.png'],
+    demoLink: 'https://google-search-next-js.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/google-search-next.js',
+  },
+  {
+    title:
       'The Wild Oasis app is an internal management tool for a boutique hotel.',
     name: 'The Wild Oasis App',
     des: 'The project is an internal management app for The Wild Oasis, a boutique hotel with eight cabins, handling bookings, cabins, guests, and check-ins/check-outs, with a dashboard and potential future expansion to a customer-facing site.',
