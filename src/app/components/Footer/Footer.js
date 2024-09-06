@@ -2,6 +2,8 @@ import React from 'react';
 import Accordian from '../Footer/Accordian';
 
 export default function Footer() {
+  const now = new Date();
+  const year = now.getFullYear();
   const contacts = ['+447771046375', 't.okonbaeva92@gmail.com'];
 
   const quickLinks = ['Home', 'Portfolio', 'About-me'];
@@ -19,7 +21,7 @@ export default function Footer() {
                 All rights reserved.
               </p>
               <p className="font-sans mt-5 max-w-xs text-center text-xs text-[#7b858b]">
-                &copy; 2024 Turdugul
+                &copy; {year} Turdugul
               </p>
             </div>
           </div>

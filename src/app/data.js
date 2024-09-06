@@ -42,6 +42,15 @@ export const AboutData = [
 // this is for the slider
 export const DataArray = [
   {
+    title: 'Portfolio with TypeScript, Next.js and Tailwind CSS',
+    name: 'My Portfolio with TypeScript, Next.js and Tailwind CSS',
+    des: 'Portfolio built with TypeScript, Tailwind CSS, and Next.js',
+    des1: `About this website: built with React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, and hosted on Vercel`,
+    images: ['/newportfolio1.png', '/newportfolio2.png'],
+    demoLink: 'https://portfolio-next2-24.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/portfolio-next2',
+  },
+  {
     title:
       'Customer Website for The Wild Oasis: Explore Cabins, Book Stays, and Manage Profiles',
     name: 'The Wild Oasis Website',
