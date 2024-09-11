@@ -81,7 +81,7 @@ export const DataArray = [
     des: 'The project is an internal management app for The Wild Oasis, a boutique hotel with eight cabins, handling bookings, cabins, guests, and check-ins/check-outs, with a dashboard and potential future expansion to a customer-facing site.',
     des1: 'Technologies Used: React, React Router, Styled-components, React Query, React Hook Form, Supabase, plus React Icons, React Hot Toast, Recharts, and date-fns.',
     images: ['/oasisApp1.png', '/oasis-app2.png', '/oasis-app3.png'],
-    demoLink: 'https://the-willd-oasis-app.vercel.app/dashboard',
+    demoLink: 'https://the-willd-oasis-app.vercel.app/',
     repoLink: 'https://github.com/Turdugul/the-willd-oasis-app',
   },
   {
