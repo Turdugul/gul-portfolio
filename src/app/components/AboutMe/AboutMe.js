@@ -57,10 +57,11 @@ export default function AboutMe() {
             About Me
           </h1>
           <h1 className="relative -mt-40 mb-5  px-5 text-5xl font-recoletaBlack  text-[#48AFDE] md:px-24">
-            About My Self
+            About Me
           </h1>
           <h4 className="font-light relative mb-10 w-full px-5 font-recoleta text-2xl text-[#223740] md:w-3/4 md:px-24 lg:w-2/3 xl:w-1/2">
-            Knack of Building application with frontend and backend operation
+            Expertise in building applications with frontend and backend
+            operations
           </h4>
           <section className="relative flex flex-col px-5 md:px-24 lg:flex-row">
             <p
@@ -68,7 +69,7 @@ export default function AboutMe() {
             >
               {' '}
               Hello! My name is Turdugul (Gul), and I am a passionate and
-              dedicated Software Developer. I thrive in dynamic environments and
+              dedicated software developer. I thrive in dynamic environments and
               am constantly evolving, learning, and adapting to new challenges.
             </p>
             <p
@@ -86,11 +87,11 @@ export default function AboutMe() {
             >
               {' '}
               I’m dedicated to delivering efficient, scalable software
-              solutions. My passion for technology keeps me up-to-date with
+              solutions. My passion for technology keeps me up to date with
               industry trends and drives me to continually enhance my skills.
-              When faced with new challenges, I dive into research to understand
-              and tackle them effectively, which is why I’ve developed a broad
-              range of skills.
+              When faced with new challenges, I immediately set to work to
+              understand and tackle them effectively, which has broadened my
+              skillset as a result.
             </p>
           </section>
         </div>

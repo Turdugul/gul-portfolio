@@ -116,7 +116,7 @@ function HomeComponent() {
                   <p
                     className={`text-3xl   text-[#47AEDE] md:text-base lg:text-2xl ${hind.className}`}
                   >
-                    Hi There!
+                    Hi there
                   </p>
                   <h1 className="mt-5 text-7xl font-recoletaBlack text-[#223740] md:mt-3 md:text-6xl lg:text-7xl xl:text-8xl">
                     I am Gul
@@ -133,8 +133,8 @@ function HomeComponent() {
                     Projects
                   </a>
                   <a
-                    href="resume_Gul_JSDev.pdf"
-                    download="resume_Gul_JSDev.pdf"
+                    href="resume_Gul_JSDev1.pdf"
+                    download="resume_Gul_JSDev1.pdf"
                     className={` font-bold ml-10 mt-8 inline-block rounded-lg bg-[#223740] px-5  py-3 uppercase text-white transition-all duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#48AFDE] hover:shadow-lg md:mt-5 md:py-2 md:text-xs lg:px-8 lg:py-3 lg:text-base xl:mt-10${hind.className}`}
                   >
                     My Resume
