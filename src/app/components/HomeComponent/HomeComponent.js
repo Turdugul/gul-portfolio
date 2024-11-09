@@ -133,8 +133,8 @@ function HomeComponent() {
                     Projects
                   </a>
                   <a
-                    href="resume_Gul_JSDev1.pdf"
-                    download="resume_Gul_JSDev1.pdf"
+                    href="cv_Gul.pdf"
+                    download="cv_Gul.pdf"
                     className={` font-bold ml-10 mt-8 inline-block rounded-lg bg-[#223740] px-5  py-3 uppercase text-white transition-all duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#48AFDE] hover:shadow-lg md:mt-5 md:py-2 md:text-xs lg:px-8 lg:py-3 lg:text-base xl:mt-10${hind.className}`}
                   >
                     My Resume
