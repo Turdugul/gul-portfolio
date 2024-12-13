@@ -116,10 +116,10 @@ export default function Index({ id, data, DataArray }) {
                 Node.js
               </h1>
               <h1 className="font-sans mb-4  mr-5 rounded-xl  bg-[#63c5f1] px-2  py-1 text-[14px]  text-white lg:bg-[#EEF7FB] lg:text-[#6A787D]">
-                Express
+                Tailwind
               </h1>
               <h1 className="font-sans mb-4  mr-5 rounded-xl  bg-[#63c5f1] px-2  py-1 text-[14px]  text-white lg:bg-[#EEF7FB] lg:text-[#6A787D]">
-                UI/US Design
+                Database
               </h1>
             </div>
           </div>

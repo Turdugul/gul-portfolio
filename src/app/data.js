@@ -65,6 +65,17 @@ export const DataArray = [
     repoLink: 'https://github.com/Turdugul/the-wild-oasis-website',
   },
   {
+    title: 'Blog Application with Dashboard',
+    name: 'Blog App',
+    description1:
+      'Built with Next.js for SSR and static generation, using Tailwind CSS for responsive design.',
+    description2:
+      'Integrated Clerk for secure authentication, MongoDB with Mongoose for backend data management, and includes a blog dashboard.',
+    images: ['/blog1.png', '/blog2.png', '/blog3.png', '/blog4.png'],
+    demoLink: 'https://my-blog-next-js-alpha.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/my-blog-next.js',
+  },
+  {
     title:
       'A Responsive Google Clone with Tailwind CSS and Search API Integration.',
     name: 'Google Search Clone',
