@@ -67,10 +67,8 @@ export const DataArray = [
   {
     title: 'Blog Application with Dashboard',
     name: 'Blog App',
-    description1:
-      'Built with Next.js for SSR and static generation, using Tailwind CSS for responsive design.',
-    description2:
-      'Integrated Clerk for secure authentication, MongoDB with Mongoose for backend data management, and includes a blog dashboard.',
+    des: 'Built with Next.js for SSR and static generation, using Tailwind CSS for responsive design.',
+    des1: 'Integrated Clerk for secure authentication, MongoDB with Mongoose for backend data management, and includes a blog dashboard.',
     images: ['/blog1.png', '/blog2.png', '/blog3.png', '/blog4.png'],
     demoLink: 'https://my-blog-next-js-alpha.vercel.app/',
     repoLink: 'https://github.com/Turdugul/my-blog-next.js',
